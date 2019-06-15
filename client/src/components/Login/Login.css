@@ -1,0 +1,75 @@
+body {
+    font-family: 'Varela Round', sans-serif;
+}
+.login {
+    color: #636363;
+    width: 400px;
+    padding-top: 200px;
+
+}
+.login .content {
+    padding: 0px;
+    border-radius: 0px;
+    position: relative;
+
+}
+.login .header {
+    border-bottom: none;
+    position: relative;
+    justify-content: center;
+}
+.login h4 {
+    text-align: center;
+    font-size: 52px;
+}
+.login  .form-group {
+    position: relative;
+}
+.login i {
+    position: absolute;
+    left: 13px;
+    top: 11px;
+    font-size: 18px;
+}
+.login .form-control {
+    padding-left: 40px;
+}
+
+.login .form-control, .login .btn {
+    min-height: 40px;
+    border-radius: 3px;
+}
+.login .hint-text {
+    text-align: center;
+    padding-top: 10px;
+}
+.login .close {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+}
+.login .btn {
+    background: #00ce81;
+    border: none;
+    line-height: normal;
+}
+.login .btn:hover, .login .btn:focus {
+    background: #00bf78;
+}
+.login .footer {
+    background: #ecf0f1;
+    border-color: #dee4e7;
+    text-align: center;
+    margin: 0 -20px -20px;
+    border-radius: 10px;
+    font-size: 13px;
+    justify-content: center;
+}
+.login .footer a {
+    color: #999;
+    padding-top: 10px;
+}
+.trigger-btn {
+    display: inline-block;
+    margin: 100px auto;
+}

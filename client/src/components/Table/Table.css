@@ -1,0 +1,147 @@
+.table-container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 90%;
+}
+
+.my-table {
+    table-layout: fixed
+}
+
+p {
+    margin-left: 15px;
+}
+
+.time-cell {
+    height: 82px;
+}
+
+.cell-layout {
+    text-align: center;
+}
+
+/* TIMETABLE-ONLY STYLES */
+.cell-lightblue {
+    background-color: #41daf2;
+}
+
+.cell-blue {
+    background-color: #16a2b8;
+}
+
+.cell-purple {
+    background-color: #bda8f4;
+}
+
+.cell-yellow {
+    background-color: #fdffaa;
+}
+
+.cell-span {
+    margin: auto;
+    font-size: 0.8em;
+}
+
+/* BOOKING-ONLY STYLES */
+.empty-cell:hover .button {
+    opacity: 1;
+}
+
+.button-container {
+    height: 58px;
+}
+
+.cancel-button-container {
+    height: 0px;
+}
+
+.button{
+    margin: auto;
+    margin-top: 11px;
+    padding: none;
+    opacity: 0;
+}
+
+.booked-cell {
+    background-color: #dc3545;
+    color: white;
+}
+
+.booked-cell > p:first-of-type {
+    margin-top: 10px;
+}
+
+.my-booked-cell {
+    background-color: #28a745;
+    color: white;
+}
+
+.my-booked-span {
+    position: relative;
+    margin-top: 20px !important
+}
+
+.my-booked-cell:hover .button {
+    opacity: 1;
+}
+
+.my-booked-cell:hover .cancel-button-container {
+    height: 58px;
+}
+
+.my-booked-cell:hover .my-booked-span {
+    display: none;
+}
+
+.unbookable {
+    background-color: #c6c8ca;
+}
+
+
+/* FOR STYLING CLASHES */
+.cell-data-toggle:before {
+    content: "\f05a";
+}
+
+.cell-data-toggle {
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+    color: black;
+    position: fixed;
+    z-index: 10000000;
+    margin: 0;
+    margin-top: -4px;
+}
+
+.cell-data-toggle:hover {
+    color: white;
+}
+
+.cell-data-toggle:hover ~ .class-text {
+    display: none;
+}
+
+.cell-data-toggle:hover ~ .booking-bg {
+    display: block;
+}
+
+.booking-text {
+    color: white;
+    z-index: 10000000;
+}
+
+.booking-text-first {
+    margin-top: 22px;
+}
+
+.booking-bg {
+    display: none;
+    position: fixed;
+    height: 10.6%;
+    width: 16.7%;
+    background-color: #28a745;
+    margin-left: -12px;
+    margin-top: -12px;
+}

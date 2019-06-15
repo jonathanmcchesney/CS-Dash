@@ -1,0 +1,10 @@
+.loadingStyle {
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -222px;
+    margin-top: -125px;
+    filter: saturate(200%) contrast(75%) brightness(80%) hue-rotate(160deg);
+}

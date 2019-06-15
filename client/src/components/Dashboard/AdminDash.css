@@ -1,0 +1,45 @@
+body {
+    background: #fff;
+}
+
+.card {
+    transition: box-shadow .3s;
+    border-radius:10px;
+    border: 1px solid #ccc;
+    background: #fff;
+}
+
+.card:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+}
+
+.bg-image {
+    position: absolute;
+    left: 40%;
+    top: 40%;
+    transform: translateX(-50%) translateY(-40%);
+    width: 120%;
+    height: 100%;
+}
+
+.gauge-container {
+    margin-left: -55px;
+}
+
+.pie-chart-container div > div > div > div > div > svg > rect {
+    width: 0px;
+}
+
+.hvac-status {
+    width: auto !important;
+    height: 185px;
+}
+
+.hvac-status > div > .card-body {
+    height: 205px;
+}
+
+
+.hvac-status > div > .card-header, .hvac-status > div > .card-footer, .hvac-status > div > .card-body > a {
+    display: none;
+}

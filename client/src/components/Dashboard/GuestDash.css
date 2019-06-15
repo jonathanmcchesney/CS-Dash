@@ -1,0 +1,52 @@
+.logoColour {
+    -webkit-filter: invert(40%) grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg) saturate(400%) contrast(2);
+    filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg) saturate(600%) contrast(0.8);
+}
+
+body {
+    background: #fff;
+}
+
+.card {
+    transition: box-shadow .3s;
+    border-radius:10px;
+    border: 1px solid #ccc;
+    background: #fff;
+
+}
+
+.card:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+}
+
+.mapCardButton {
+    margin-left: 2%;
+    margin-right: 2%;
+    border: none;
+    background: none;
+}
+
+.occupancy-container {
+    height: 200px;
+}
+
+.gauge-container {
+    margin-left: -55px;
+}
+
+.guest-rooms {
+    max-height: 256px;
+}
+
+.bg-image {
+    position: absolute;
+    left: 40%;
+    top: 40%;
+    transform: translateX(-50%) translateY(-40%);
+    width: 120%;
+    height: 100%;
+}
+
+.pie-chart-container div > div > div > div > div > svg > rect {
+    width: 0px;
+}

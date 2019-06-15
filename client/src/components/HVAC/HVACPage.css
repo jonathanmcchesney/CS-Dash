@@ -1,0 +1,42 @@
+.vent-modal-extra-margin > div > button {
+    margin-left: 50px;
+    margin-bottom: 15px;
+}
+
+.vent-modal > div > button {
+    margin-left: 42.5px;
+    margin-bottom: 15px;
+}
+
+.light-card-container {
+    left: 30px;
+    width: 210px;
+    margin: 10px;
+}
+
+.lightbulb:before {
+    content: "\f0eb";
+}
+
+.lightbulb {
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+    color: grey;
+    font-size: 4em;
+}
+
+.lightbulb-on {
+    color: #ffe500;
+}
+
+.lightbulb-on:before {
+    -webkit-filter: drop-shadow(0px 0px 25px #ffe500);
+    filter: drop-shadow(0px 0px 25px #ffe500);
+}
+
+.ticky-boyo {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-40%);
+  }

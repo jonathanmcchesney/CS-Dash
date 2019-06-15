@@ -1,0 +1,40 @@
+body {
+    background: #fff;
+}
+.card {
+    transition: box-shadow .3s;
+    border-radius:10px;
+    border: 1px solid #ccc;
+    background: #fff;
+}
+.card:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+}
+
+.mapCardButton {
+    margin-left: 2%;
+    margin-right: 2%;
+    border: none;
+    background: none;
+}
+
+.bg-image {
+    position: absolute;
+    left: 40%;
+    top: 40%;
+    transform: translateX(-50%) translateY(-40%);
+    width: 120%;
+    height: 100%;
+}
+
+.pie-chart-container div > div > div > div > div > svg > rect {
+    width: 0px;
+}
+
+.maps-container {
+    height: 294px;
+}
+
+.occupancy-container {
+    height: 200px;
+}

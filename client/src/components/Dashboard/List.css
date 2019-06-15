@@ -1,0 +1,21 @@
+.paginationStyle {
+    margin: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.guest-list > li > p {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.student-list > li > p {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.student-list > li > a {
+    margin-top: -2.45rem;
+}

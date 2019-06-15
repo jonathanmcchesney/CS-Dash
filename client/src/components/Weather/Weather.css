@@ -1,0 +1,11 @@
+.weather > div > div {
+    background: linear-gradient(to bottom right, #e55a3b, #d95838, #dc3545, #dc3545, #dc3545);
+}
+
+.weather > div > div > div > div > div {
+    color: white !important;
+}
+
+.weather > div > div > div > div > div > i {
+    color: white !important;
+}

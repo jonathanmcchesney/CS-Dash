@@ -1,0 +1,19 @@
+{
+  "name": "csc4008frontend",
+  "version": "0.1.0",
+  "dependencies": {
+    "pg": "^7.6.0",
+    "pg-native": "^3.0.0",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-scripts": "1.1.5",
+    "react-slack-feedback": "^1.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "proxy": "http://localhost:8080/"
+}

@@ -1,0 +1,78 @@
+.user-status {
+    margin-right: 20px;
+    border: none;
+    color: white;
+    pointer-events: none;
+}
+
+.divider:before {
+    width: 1px;
+    height: 20px;
+    margin-right: 25px;
+    border-right: 1px solid white;
+    content: "";
+}
+
+.user-name {
+    margin-right: 0px;
+}
+
+.notificationLineSuccess {
+    width: 50%;
+    display: inline-block;
+    color: #ffffff;
+    background-color: #218838;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+    border: 2px solid #a9ffbf;
+}
+
+.notificationLineWarning {
+    width: 50%;
+    display: inline-block;
+    color: #ffffff;
+    background-color: #edab23;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+    border: 2px solid #ffddaa;
+}
+
+.notificationLineError {
+    width: 50%;
+    display: inline-block;
+    color: #ffffff;
+    background-color: #ba1323;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+    border: 2px solid #ffa9b9;
+}
+
+.notificationLineText {
+    position: center;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    -webkit-animation: xScroll 10s ease;
+    -webkit-animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes xScroll {
+    0% {-webkit-transform: translateY(-10px); opacity: 0.0;}
+    20% {-webkit-transform: translateY(0px); opacity: 1.0;}
+    50% {-webkit-transform: translateY(0px); opacity: 1.0;}
+    80% {-webkit-transform: translateY(0px); opacity: 1.0;}
+    100% {-webkit-transform: translateY(10px); opacity: 0.0;}
+}

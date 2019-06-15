@@ -1,0 +1,81 @@
+body {
+    font-family: 'Varela Round', sans-serif;
+}
+.updatePassword {
+    color: #636363;
+    width: 400px;
+    padding-top: 0px;
+
+}
+.updatePassword .content {
+    padding: 0px;
+    border-radius: 0px;
+    position: relative;
+
+}
+.updatePassword .header {
+    border-bottom: none;
+    position: relative;
+    justify-content: center;
+}
+.updatePassword h4 {
+    text-align: center;
+    font-size: 52px;
+}
+.updatePassword  .form-group {
+    position: relative;
+}
+.updatePassword i {
+    position: absolute;
+    left: 13px;
+    top: 11px;
+    font-size: 18px;
+}
+.updatePassword .form-control {
+    padding-left: 40px;
+}
+
+.updatePassword .form-control, .updatePassword .btn {
+    min-height: 40px;
+    border-radius: 3px;
+}
+.updatePassword .hint-text {
+    text-align: center;
+    padding-top: 10px;
+}
+.updatePassword .close {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+}
+.updatePassword .btn {
+    line-height: normal;
+}
+.updatePassword .btn:hover, .updatePassword .btn:focus {
+    background: #28a745;
+    color: #fff;
+}
+.updatePassword .footer {
+    background: #ecf0f1;
+    border-color: #dee4e7;
+    text-align: center;
+    margin: 0 -20px -20px;
+    border-radius: 10px;
+    font-size: 13px;
+    justify-content: center;
+}
+.updatePassword .footer a {
+    color: #999;
+    padding-top: 10px;
+}
+.trigger-btn {
+    display: inline-block;
+    margin: 100px auto;
+}
+
+.update-password-container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-45%);
+}
